@@ -33,6 +33,7 @@ app.listen(port,()=>{
 
 app.get('/',(req,res)=>{
     console.log("Welcome to backend server");
+    res.send("Hello this is backend server of movie-ticketing website")
 })
 
 app.post('/signup', async (req, res) => {
