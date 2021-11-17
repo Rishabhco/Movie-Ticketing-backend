@@ -30,6 +30,10 @@ app.listen(port,()=>{
     console.log('Server is up on the port '+port+" !")
 })
 
+app.get('/',(req,res)=>{
+    console.log("Welcome to backend server");
+})
+
 app.post('/signup', async (req, res) => {
     // console.log(req.body)
     //  res.send('testing!')
