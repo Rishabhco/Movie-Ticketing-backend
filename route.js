@@ -2,8 +2,8 @@ const express = require('express');
 var bodyParser = require('body-parser');
 var axios = require('axios');
 const cors=require("cors");
-const User = require('../models/model.js')
-const mongoose=require('../db/db.js')
+const User = require('./models/model.js')
+const mongoose=require('./db/db.js')
 
 const app=express()
 const port=process.env.PORT||3000
